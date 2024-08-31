@@ -1,7 +1,7 @@
 # Factor-Slicing
 The reversal factors in the A-share market, such as the commonly used Ret20 factor, have shown significant long-term cumulative returns, but they often experience short-term drawdowns, making them a ”thorny rose” in the hearts of quantitative researchers. In fact, if we can segment the reversal factors more precisely in Momentum and Reversal, we can take the best and leave the rest. This is the idea behind factor slicing. After this, we can have deeper insights into the market about the micro-level drives for Reversal, **which turn out to be large-order Ask orders.**
 
-## The idea behind
+## The Idea Behind
 The actions of major market players tend to reflect the market’s overall sentiment and are likely to influence the market’s direction in the near future.
 
 ## Construction Method
@@ -13,3 +13,5 @@ trade, denoted as M_High.
 trade, denoted as M_Low.
 - Reversal factor after Factor Slicing M = M_High − M_Low.
 M is the improved Reversal factor.
+
+## All the details are in the *Factor Slicing.pdf*
